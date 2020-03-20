@@ -1,0 +1,15 @@
+/*
+ * This is is imported by virtue of "sass.var" in "app.json".
+ */
+$auth-color: white;
+$auth-background-color: #123d40;
+$auth-background-image: url('images/auth-background.jpg');
+
+
+// Application global variables
+$blocks-max-width: dynamic(1024px);
+$blocks-spacing: dynamic(8px);
+$form-max-width: dynamic(768px);
+$invalid-base-color: dynamic(#d63e08);
+$invalid-text-color: dynamic(white);
+$picture-border-radius: dynamic(50%);

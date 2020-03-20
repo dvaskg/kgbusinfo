@@ -1,0 +1,25 @@
+$font-path: get-resource-path('fonts') + '/themer-local-fonts';
+@font-face {
+	font-family: 'Signika';
+	font-weight: 700;
+	font-style: normal;
+	src: url($font-path + '/Signika-Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Signika';
+	font-weight: 400;
+	font-style: normal;
+	src: url($font-path + '/Signika-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Signika';
+	font-weight: 600;
+	font-style: normal;
+	src: url($font-path + '/Signika-SemiBold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Signika';
+	font-weight: 300;
+	font-style: normal;
+	src: url($font-path + '/Signika-Light.ttf') format('truetype');
+}
